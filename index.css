@@ -22,6 +22,7 @@ body{
     height:50px;
     display: flex;
     position:fixed;
+    z-index: 100;
     top:0;
     justify-content: space-around;
     box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
@@ -259,11 +260,11 @@ body{
     text-align: center;
     padding:10px;
 }
-#screenshots span{
+#screenshots span, #team span{
     font-size: 3em;
     color:rgba(0,0,0,0.6);
 }
-#screenshots p{
+#screenshots p, #team p{
         color:rgba(0,0,0,0.5);
 }
 
@@ -302,6 +303,60 @@ body{
     width:120px;
     height:120px;
     margin-top:-210px;
-
 }
+
+#team{
+    width:100%;
+    text-align:center;
+}
+#team .pic{
+    position: relative;
+}
+
+#team #gallery .hoverContent{
+    position: absolute;
+    bottom:0;
+    background-color: white;
+    width:100%;
+    padding:12px;
+}
+#team #gallery .hoverContent:hover{
+    position: absolute;
+    bottom:0;
+    background-color: white;
+    width:100%;
+    padding:12px;
+}
+#team .hoverContent i{
+     color: gray;
+     padding:10px;
+     transition: color 0.4s;
+}
+
+#team .hoverContent i:hover{
+    color: #5fb962;
+}
+
+#quotes{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+
+.quote{
+    max-width: 700px;
+    margin-top:80px;
+    transition: box-shadow 0.4s;
+    padding:50px;
+}
+.quote h1{
+    color: rgba(0,0,0,0.6);
+}
+
+.quote:hover{
+    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.1);
+}
+
+
+
 
