@@ -470,4 +470,75 @@ body{
     color:#5fb962
 }
 
+#subscribe {
+    width:100%;
+    background-image: url('img/newsletter-bg.jpg');
+    height:300px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
 
+#subscriptionForm{
+    width:100%;
+    height:100%;
+    background-color: rgba(255,255,255,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subscriptionForm input{
+    padding:20px;
+    width:400px;
+}
+
+#subscriptionForm input:focus{
+    border:2px solid #5fb962 
+}
+
+#subscriptionForm #subBtn{
+    color:white;
+    background-color: #5fd062;
+    padding:17px;
+    transition: background-color 0.4s;
+}
+
+#subscriptionForm a{
+    text-decoration: none;
+}
+
+#subscriptionForm #subBtn:hover{
+    background-color: #5fb962;
+}
+
+#subMedias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255,0.5);
+
+}
+
+#subMedias a{
+    text-decoration: none;
+    color:white;
+}
+
+.subMedia {
+    padding:10px;
+    width:40px;
+    height:40px;
+    margin:10px;
+    color:white;
+    background-color: #5fd062;
+    border-radius: 35px;
+    transition:background-color 0.4s;
+}
+
+.subMedia:hover{
+    background-color: #5fb962;
+}
