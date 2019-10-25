@@ -173,5 +173,82 @@ body{
     height:auto;
 }
 
+#about {
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin-top:50px;
+}
 
+#about #aboutContainer{
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+#aboutImg {
+    margin:50px;
+}
+#aboutText{
+    margin-top:60px;
+}
+#aboutText h1 span{
+    font-weight: normal;
+    color:rgba(0,0,0,0.7);
+}
+#aboutText p{
+    color:rgba(0,0,0,0.6);
+}
+#about  img{
+    width:300px;
+    height:auto
+}
+#aboutText ul{
+    list-style: disc;
+    list-style-type: square;
+}
+#aboutText li{
+    color:rgba(0,0,0,0.7);
+    padding:3px;
+}
 
+#features{
+    margin-top: 30px;
+    width:100%;
+    text-align: center;
+}
+
+#features span{
+    font-size:3em;
+    padding:8px;
+}
+
+#featureCards{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.featureCard{
+    text-align: center;
+    width:280px;
+    padding:30px 20px;
+    margin:20px;
+    transition: box-shadow 0.4s;
+}
+
+.featureCard * {
+    padding:10px;
+}
+.featureCard p{
+    color:rgba(0,0,0,0.4);
+}
+
+.featureCard:hover{
+    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.1);
+}
+
+.featureCard img {
+    width:70px;
+    height:auto;
+}
