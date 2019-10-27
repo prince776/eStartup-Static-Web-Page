@@ -482,6 +482,10 @@ body{
     flex-direction: column;
 }
 
+#subscribe{
+    margin-top:5em;
+    width:100%;
+}
 #subscriptionForm{
     width:100%;
     height:100%;
@@ -500,7 +504,7 @@ body{
     border:2px solid #5fb962 
 }
 
-#subscriptionForm #subBtn{
+.subBtn{
     color:white;
     background-color: #5fd062;
     padding:17px;
@@ -511,7 +515,7 @@ body{
     text-decoration: none;
 }
 
-#subscriptionForm #subBtn:hover{
+.subBtn:hover{
     background-color: #5fb962;
 }
 
@@ -542,3 +546,71 @@ body{
 .subMedia:hover{
     background-color: #5fb962;
 }
+
+#contact{
+    width:100%;
+    margin-top:7em;
+    text-align: center;
+}
+#contact span{
+    color:rgba(0,0,0,0.6);
+    font-size: 3em;
+    margin:15px;
+}
+#contact p{
+    color:rgba(0,0,0,0.5);
+    margin:15px;
+}
+
+#subContact {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    flex-wrap: wrap;
+}
+
+#contactInfo{
+    margin:30px;
+    margin-top:0px;
+    line-height: 30px;
+    padding:15px;
+    width:250px;
+    color:rgba(0,0,0,0.5)
+}
+#contactInfo i{
+    color:#5fd062;
+    font-size: 2em;
+    padding: 10px;
+}
+#contactInfo #subMedias i{
+    font-size: 1em;
+    color:white;
+    padding:3px;
+}
+
+#contactForm{
+    padding:15px;
+}
+
+#contactForm input{
+    padding:15px 15px;
+    width:300px;
+    margin:10px;
+}
+#contactForm textarea{
+    padding:15px;
+    width:300px;
+    height:100px;
+    margin:10px;
+}
+
+#contactForm .subBtn{
+    margin-left:90px;
+    width:140px;  
+    padding:15px 5px;
+}
+#contactForm a{
+    text-decoration: none;
+}
+
